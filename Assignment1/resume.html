@@ -1,0 +1,89 @@
+<div>
+  <h1 style="text-align:center">Resume Builder</h1>
+  <h2 style="text-align:center">Personal Information</h2>
+  <form action="">
+      <ul>
+        <li>
+          <label for="name">Full Name:</label><br>
+          <input type="text" id="name" placeholder="" required />
+        </li>
+        <li>
+          <label for="email">Email:</label><br>
+          <input type="email" id="email" placeholder="" required />
+        </li>
+        <li>
+          <label for="phone">Phone:</label><br>
+          <input type="phone" id="phone" placeholder="" required />
+        </li>
+        <li>
+          <label for="dob">Date of Birth:</label><br>
+          <input type="date" id="dob" required />
+        </li>
+   
+      <h3>Education</h3>
+        <li>
+          <label for="degree">Degree:</label><br>
+          <input type="text" placeholder="" required />
+        </li>
+        <li>
+          <label for="school">School/University:</label><br>
+          <input type="text"  placeholder="" required />
+        </li>
+        <li>
+          <label for="marks">Marks (in percentage):</label><br>
+          <input type="text" placeholder="" required />
+        </li>
+
+      <h3>Summary</h3>
+        <li>
+          <label for="title">Title:</label><br>
+          <input type="text"  placeholder="" required />
+        </li>
+        <li>
+          <label for="summary">Summary:</label><br>
+          <textarea id="summary" placeholder="" rows="4"></textarea>
+        </li>
+
+      <h3>Skills</h3>
+        <li>
+          <label for="skills">List of Skills:</label><br>
+          <textarea id="skills" placeholder="" rows="3"></textarea>
+        </li>
+      </ul>
+
+    <div style="text-align:center; margin-top:20px;">
+      <button type="submit">Submit Resume</button>
+    </div>
+  </form>
+
+  <style>
+    form {
+      width: 400px;
+      margin: 30px auto;
+      padding: 20px;
+      /* border: 1px solid ; */
+      border-radius: 10px;
+      font-family: Arial, sans-serif;
+    }
+    li {
+      list-style: none;
+      margin-bottom: 15px;
+    }
+    input, textarea {
+      width: 100%;
+      padding: 8px;
+      margin-top: 5px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+    }
+    button {
+      padding: 10px 20px;
+      background-color: palevioletred;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+  </style>
+</div>
+
